@@ -158,7 +158,7 @@ public class SnakeGame extends JFrame {
                 g.fillRect(p.x * GRID_SIZE, p.y * GRID_SIZE, GRID_SIZE, GRID_SIZE);
             }
 
-            // Draw food
+            // Draw food by the chitresh
             g.setColor(FOOD_COLOR);
             g.fillRect(food.x * GRID_SIZE, food.y * GRID_SIZE, GRID_SIZE, GRID_SIZE);
             // Draw Score
